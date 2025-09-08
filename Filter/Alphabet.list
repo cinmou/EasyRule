@@ -44,6 +44,8 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,zynamics.com
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.blogspot.
 DOMAIN-SUFFIX,goog

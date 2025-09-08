@@ -1,4 +1,7 @@
 # AI
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,openai
 # Apple Intelligence
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,apple-relay.apple.com
@@ -67,6 +70,7 @@ DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
 
 # Groq
+DOMAIN,api.groq.com
 DOMAIN-SUFFIX,groq.com
 
 # > JetBrains AI
@@ -81,7 +85,7 @@ DOMAIN-SUFFIX,meta.ai
 # > Hume
 DOMAIN-SUFFIX,hume.ai
 
-# > exhentai
+# exhentai
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,e-hentai.org
 
@@ -110,3 +114,8 @@ DOMAIN-SUFFIX,mistral.ai
 # xAI
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+
+# AppleNews
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+DOMAIN,gspe1-ssl.ls.apple.com
