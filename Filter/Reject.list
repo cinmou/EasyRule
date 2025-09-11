@@ -3,9 +3,3 @@
 DOMAIN-SUFFIX,order.luckydogsoft.com
 DOMAIN-SUFFIX,api-ad.smartisan.com
 DOMAIN-SUFFIX,ip-api.com
-
-# 阻止 17.0.0.0/8 的 QUIC
-IP-CIDR,17.0.0.0/8
-
-# 阻止 2620:149::/32 的 QUIC（IPv6）
-IP-CIDR6,2620:149::/32
