@@ -7,8 +7,11 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN,guzzoni.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
 
 # Anthropic
 # > Claude
@@ -22,18 +25,16 @@ IP-CIDR6,2607:6bc0::/48
 # > ChatGPT
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN,api.statsig.com
 DOMAIN,api-iam.intercom.io
-DOMAIN,chatgpt.livekit.cloud
-DOMAIN,host.livekit.cloud
 DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openai.com.cdn.cloudflare.net
 DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,sfo3.turn.livekit.cloud
+DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
 
 # Cloudflare
@@ -57,13 +58,12 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 # > Gemini
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN,ai.google.dev
 DOMAIN,bard.google.com
 DOMAIN,gemini.google.com
-DOMAIN,generativeai.google
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
-DOMAIN,geller-pa.googleapis.com
 # > NotebookLM
 DOMAIN-KEYWORD,notebooklm.google
 # > Search Labs
@@ -82,9 +82,6 @@ DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,meta.ai
 
-# > Hume
-DOMAIN-SUFFIX,hume.ai
-
 # exhentai
 DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,e-hentai.org
@@ -100,11 +97,7 @@ DOMAIN-SUFFIX,githubcopilot.com
 # Perplexity
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
-
-# Perplexity
-DOMAIN-SUFFIX,pplx.ai
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,perplexity.com
+DOMAIN,pplx-res.cloudinary.com
 
 # mistral
 DOMAIN,chat.mistral.ai
@@ -119,3 +112,10 @@ DOMAIN-SUFFIX,x.ai
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 DOMAIN,gspe1-ssl.ls.apple.com
+
+# Doubao
+# > Doubao Dola
+DOMAIN-SUFFIX,cici.com,extended-matching
+DOMAIN-SUFFIX,ciciai.com,extended-matching
+DOMAIN-SUFFIX,dola.com,extended-matching
+DOMAIN-SUFFIX,byteoversea.com,extended-matching
