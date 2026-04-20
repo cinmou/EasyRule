@@ -2,120 +2,18 @@
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
-# Apple Intelligence
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN,cp4.cloudflare.com
-DOMAIN,guzzoni.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
 
-# Anthropic
-# > Claude
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,anthropic.com
-IP-CIDR,160.79.104.0/23
-IP-CIDR6,2607:6bc0::/48
-
-# OpenAI
-# > ChatGPT
-DOMAIN-SUFFIX,chat.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com
-DOMAIN,api.statsig.com
-DOMAIN,api-iam.intercom.io
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-KEYWORD,openaiapi
-DOMAIN-KEYWORD,openaicom
-
-# Cloudflare
-# > AI Gateway
-DOMAIN,gateway.ai.cloudflare.com
-
-# Cursor
-DOMAIN-SUFFIX,cursor-cdn.com
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursorapi.com
-
-# Google
-# > AI Studio
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-# > DeepMind
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-# > Gemini
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN,ai.google.dev
-DOMAIN,bard.google.com
-DOMAIN,gemini.google.com
-# > NotebookLM
-DOMAIN-KEYWORD,notebooklm.google
-# > Search Labs
-DOMAIN-KEYWORD,labs.google
-
-# Groq
-DOMAIN,api.groq.com
-DOMAIN-SUFFIX,groq.com
-
-# > JetBrains AI
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,jetbrains.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-
-# > Meta
-DOMAIN,imagine.meta.com
-DOMAIN-SUFFIX,meta.ai
-
-# exhentai
-DOMAIN-SUFFIX,exhentai.org
-DOMAIN-SUFFIX,e-hentai.org
-
-# Microsoft
-# > Copilot
-DOMAIN,copilot.microsoft.com
-DOMAIN,sydney.bing.com
-DOMAIN,www.bing.com
-# > GitHub Copilot
-DOMAIN-SUFFIX,githubcopilot.com
-
-# Perplexity
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,pplx.ai
-DOMAIN,pplx-res.cloudinary.com
-
-# mistral
+# Mistral
 DOMAIN,chat.mistral.ai
 DOMAIN,console.mistral.ai
 DOMAIN-SUFFIX,mistral.ai
 
-# xAI
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.ai
 
 # AppleNews
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 DOMAIN,gspe1-ssl.ls.apple.com
 
-# Doubao
-# > Doubao Dola
-DOMAIN-SUFFIX,cici.com,extended-matching
-DOMAIN-SUFFIX,ciciai.com,extended-matching
-DOMAIN-SUFFIX,dola.com,extended-matching
-DOMAIN-SUFFIX,byteoversea.com,extended-matching
+# exhentai
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,e-hentai.org
